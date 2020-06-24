@@ -3,8 +3,5 @@
 
 Se realiza la lectura de los archivos proporcionados y se obtienen los datos para las funciones de densidad marginal, estas se grafican para observar el tipo de distribución que se planteará en el modelo:
 
-![GitHub Logo](fX.png)
-Format: ![Alt Text](url)
+![GitHub Logo](fX.png)    ![GitHub Logo](fY.png)
 
-![GitHub Logo](fY.png)
-Format: ![Alt Text](url)
