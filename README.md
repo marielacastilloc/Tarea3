@@ -43,7 +43,13 @@ El porcentaje de error entre este valor y la correlación hallada es de apenas 0
 Según la teoría, si dos variables son estadísticamente independientes o no están relacionadas el valor de su covarianza es igual a 0. El valor obtenido fue de de 0.18310, bastante cercano al esperado por lo cual se confirma que no hay correlación entre las variables y son independientes. 
 
 * Coeficiente de correlación: 
-El coeficiente de correlación funciona como un indicador de la relación de linealidad o proporcionalidad entre dos variables. Se encuentra entre -1 y 1, si su valor es positivo las variables aumentan o disminuyen a la vez, si es negativo cuando una variable aumenta la otra disminuye y viceversa. Si el valor es igual a 0 signfica que no existe dependencia lineal entre las variables. El resultado hallado fue de 0.002301 por lo que se concluye que las variables no presentan dependencia lineal. 
+El coeficiente de correlación funciona como un indicador de la relación de linealidad o proporcionalidad entre dos variables. Se encuentra entre -1 y 1, si su valor es positivo las variables aumentan o disminuyen a la vez, si es negativo cuando una variable aumenta la otra disminuye y viceversa. Si el valor es igual a 0 signfica que no existe dependencia lineal entre las variables. Viene dado por la ecuación: 
+
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math=\rho = \frac{C_{XY}}{\sigma_{X} \sigma_{Y}} ">  
+</p>
+
+El resultado hallado fue de 0.002301 por lo que se concluye que las variables no presentan dependencia lineal. 
 
 ## 4. Graficar las funciones de densidad marginales (2D), la función de densidad conjunta (3D).
 
