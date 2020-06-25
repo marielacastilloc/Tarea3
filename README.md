@@ -18,3 +18,8 @@ Asumiento que existente independencia de X y Y, la función de densidad conjunta
 <p align="center">
   <img src="https://render.githubusercontent.com/render/math?math= f_{x,y}(x,y) = f_{x}(x) \cdot f_{y}(y)">  
 </p>
+Es decir:
+
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math=f_{X}(x) = \frac{1}{\sqrt{2%20\pi\cdot10.8860}}%20exp{\left[\frac{-(x-9.9048)^2}{2\cdot10.8860}\right]}">  
+</p>
