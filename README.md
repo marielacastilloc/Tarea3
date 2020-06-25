@@ -1,9 +1,7 @@
 # Tarea3  - Mariela Castillo Cabezas B61610
 ## 1. A partir de los datos, encontrar la mejor curva de ajuste (modelo probabilístico) para las funciones de densidad marginales de X y Y.
 
-Se realiza la lectura de los archivos proporcionados y se obtienen los datos para las funciones de densidad marginal, estas se grafican para observar el tipo de distribución que se planteará en el modelo:
-
-![GitHub Logo](fX.png)    ![GitHub Logo](fY.png)
+Se realiza la lectura de los archivos proporcionados y se obtienen los datos para las funciones de densidad marginal, estas se grafican para observar el tipo de distribución que se planteará en el modelo.
 
 Observando las gráficas obtenidas se eligió la distribución normal o gaussiana para el modelo ya que es la que más se asemeja a la distribución obtenida. Se definió esta como: 
 <p align="center">
@@ -49,5 +47,11 @@ El coeficiente de correlación funciona como un indicador de la relación de lin
 
 ## 4. Graficar las funciones de densidad marginales (2D), la función de densidad conjunta (3D).
 
+Gráficas obtenidas para las funciones de densidad marginales:
 
+![GitHub Logo](fX.png)    ![GitHub Logo](fY.png)
+
+Gráfico función de densidad conjunta: 
+
+![GitHub Logo](3D.png)
 
