@@ -27,8 +27,7 @@ Es decir:
 
 ## Hallar los valores de correlación, covarianza y coeficiente de correlación (Pearson) para los datos y explicar su significado
 
-* Correlación: 
-
+* Correlación:
 La correlación hace referencia al grado en el cual dos o más cantidades están linealmente asociadas. Para los datos proporcionados se obtuvo un valor de 149.542810 el cual debe ser igual a la multiplicación de la media de las variables aleatorias ya que al asumirse independencia estadística se sabe que no hay correlación entre las variables. 
 Se tiene que : 
 
@@ -46,4 +45,9 @@ El porcentaje de error entre este valor y la correlación hallada es de apenas 0
 Según la teoría, si dos variables son estadísticamente independientes o no están relacionadas el valor de su covarianza es igual a 0. El valor obtenido fue de de 0.18310, bastante cercano al esperado por lo cual se confirma que no hay correlación entre las variables y son independientes. 
 
 * Coeficiente de correlación: 
+El coeficiente de correlación funciona como un indicador de la relación de linealidad o proporcionalidad entre dos variables. Se encuentra entre -1 y 1, si su valor es positivo las variables aumentan o disminuyen a la vez, si es negativo cuando una variable aumenta la otra disminuye y viceversa. Si el valor es igual a 0 signfica que no existe dependencia lineal entre las variables. El resultado hallado fue de 0.002301 por lo que se concluye que las variables no presentan dependencia lineal. 
+
+## 4. Graficar las funciones de densidad marginales (2D), la función de densidad conjunta (3D).
+
+
 
