@@ -10,3 +10,15 @@ Observando las gráficas obtenidas se eligió la distribución normal o gaussian
   <img src="https://render.githubusercontent.com/render/math?math=f_x(x) = \frac{1}{\sqrt{2\pi \sigma ^2}} exp \left[ \frac{-(x -\mu)^2}{2\sigma^2} \right]">  
 </p>
 
+Y se obtuvieron los parámetros mu y sigma que se ajustan mejor a los datos, utilizando el comando curve_fit de la librería scipy. Para la función de densidad marginal de X se tiene que mu = 9.90484381 y sigma = 3.29944286, para la función de densidad marginal de Y mu corresponde a 15.0794609 y sigma es 6.02693776. Estos valores se sustituyen en la ecuación presentada anteriormente para obtener la ecuación específica de cada función. 
+
+## 2. Asumir independencia de X y Y, ¿cuál es entonces la función de densidad conjunta que modela los datos? 
+Asumiento que existente independencia de X y Y, la función de densidad conjunta que modela los datos proporcionados viene dada por la multiplicación de las funciones de densidad marginales obtenidas en el inciso 1: 
+
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math= f_{x,y}(x,y) = f_{x}(x) \cdot f_{y}(y)">  
+</p>
+
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math=  f_{x,y}(x,y) = \left( \frac{1}{\sqrt{2\pi \cdot 10.8860}}exp \left[ \frac{-(x-9.9048)^2}{2 \cdot 10.8860} \right] \right)  \cdot \left( \frac{1}{\sqrt{2\pi \cdot 36.3235}}exp \left[ \frac{-(x-15.0795)^2}{2 \cdot 36.3235} \right] \right)">  
+</p>
