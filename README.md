@@ -16,10 +16,11 @@ Y se obtuvieron los parámetros mu y sigma que se ajustan mejor a los datos, uti
 Asumiento que existente independencia de X y Y, la función de densidad conjunta que modela los datos proporcionados viene dada por la multiplicación de las funciones de densidad marginales obtenidas en el inciso 1: 
 
 <p align="center">
-  <img src="https://render.githubusercontent.com/render/math?math= f_{x,y}(x,y) = f_{x}(x) \cdot f_{y}(y)">  
+  <img src="https://render.githubusercontent.com/render/math?math= f_x,y(x,y) = f_x(x) \cdot f_y(y)">  
 </p>
 
 Es decir:
+
 <p align="center">
-  <img src="https://render.githubusercontent.com/render/math?math=  f_{x,y}(x,y) = \left( \frac{1}{\sqrt{2\pi \cdot 10.8860}}exp \left[ \frac{-(x-9.9048)^2}{2 \cdot 10.8860} \right] \right)  \cdot \left( \frac{1}{\sqrt{2\pi \cdot 36.3235}}exp \left[ \frac{-(x-15.0795)^2}{2 \cdot 36.3235} \right] \right)">  
+  <img src="https://render.githubusercontent.com/render/math?math=  f_x,y(x,y) = \left( \frac{1}{\sqrt{2\pi \cdot 10.8860}}exp \left[ \frac{-(x-9.9048)^2}{2 \cdot 10.8860} \right] \right)  \cdot \left( \frac{1}{\sqrt{2\pi \cdot 36.3235}}exp \left[ \frac{-(x-15.0795)^2}{2 \cdot 36.3235} \right] \right)">  
 </p>
