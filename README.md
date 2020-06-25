@@ -18,8 +18,32 @@ Asumiento que existente independencia de X y Y, la función de densidad conjunta
 <p align="center">
   <img src="https://render.githubusercontent.com/render/math?math=f_{x,y}(x,y) = f_{x}(x)\cdotf_{y}(y)">  
 </p>
+
 Es decir:
 
 <p align="center">
   <img src="https://render.githubusercontent.com/render/math?math=f_{x,y}(x,y) = \frac{1}{\sqrt{2%20\pi\cdot10.8860}}%20exp{\left[\frac{-(x-9.9048)^2}{2\cdot10.8860}\right]} \cdot \frac{1}{\sqrt{2%20\pi\cdot36.3235}}%20exp{\left[\frac{-(x-15.0795)^2}{2\cdot36.3235}\right]} ">  
 </p>
+
+## Hallar los valores de correlación, covarianza y coeficiente de correlación (Pearson) para los datos y explicar su significado
+
+* Item 1 Correlación: 
+
+La correlación hace referencia al grado en el cual dos o más cantidades están linealmente asociadas. Para los datos proporcionados se obtuvo un valor de 149.542810 el cual debe ser igual a la multiplicación de la media de las variables aleatorias ya que al asumirse independencia estadística se sabe que no hay correlación entre las variables. 
+Se tiene que : 
+
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math=R_{XY} = E\left[X \right]E\left[ Y\right]">  
+</p>
+
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math=  R_{XY} = 9.9048 \cdot 15.07945 = 149.3597">  
+</p>
+
+El porcentaje de error entre este valor y la correlación hallada es de apenas 0.12% por lo que se comprueba que no existe correlación entre las variables.
+
+* Item 2 Covarianza: 
+Según la teoría, si dos variables son estadísticamente independientes o no están relacionadas el valor de su covarianza es igual a 0. El valor obtenido fue de de 0.18310, bastante cercano al esperado por lo cual se confirma que no hay correlación entre las variables y son independientes. 
+
+* Item 3 Coeficiente de correlación: 
+
