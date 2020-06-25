@@ -16,5 +16,5 @@ Y se obtuvieron los parámetros mu y sigma que se ajustan mejor a los datos, uti
 Asumiento que existente independencia de X y Y, la función de densidad conjunta que modela los datos proporcionados viene dada por la multiplicación de las funciones de densidad marginales obtenidas en el inciso 1: 
 
 <p align="center">
-  <img src="https://render.githubusercontent.com/render/math?math= f_x,y(x,y) = f_x(x) f_y(y)">  
+  <img src="https://render.githubusercontent.com/render/math?math= f_{x,y}(x,y) = f_{x}(x) \cdot f_{y}(y)">  
 </p>
