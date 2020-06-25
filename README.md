@@ -6,4 +6,7 @@ Se realiza la lectura de los archivos proporcionados y se obtienen los datos par
 ![GitHub Logo](fX.png)    ![GitHub Logo](fY.png)
 
 Observando las gráficas obtenidas se eligió la distribución normal o gaussiana para el modelo ya que es la que más se asemeja a la distribución obtenida. Se definió esta como: 
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math=f_x(x) = \frac{1}{\sqrt{2\pi \sigma ^2}} exp \left[ \frac{-(x -\mu)^2}{2\sigma^2} \right]">  
+</p>
 
