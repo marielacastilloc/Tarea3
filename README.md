@@ -1,7 +1,7 @@
 # Tarea3  - Mariela Castillo Cabezas B61610
 ## 1. A partir de los datos, encontrar la mejor curva de ajuste (modelo probabilístico) para las funciones de densidad marginales de X y Y.
 
-Se realiza la lectura de los archivos proporcionados y se obtienen los datos para las funciones de densidad marginal, estas se grafican para observar el tipo de distribución que se planteará en el modelo.
+Primeramente se realiza la lectura de los archivos proporcionados y se obtienen los datos para las funciones de densidad marginal, estas se grafican para observar el tipo de distribución que se planteará en el modelo.
 
 Observando las gráficas obtenidas se eligió la distribución normal o gaussiana para el modelo ya que es la que más se asemeja a la distribución obtenida. Se definió esta como: 
 <p align="center">
@@ -23,7 +23,7 @@ Es decir:
   <img src="https://render.githubusercontent.com/render/math?math=f_{x,y}(x,y) = \frac{1}{\sqrt{2%20\pi\cdot10.8860}}%20exp{\left[\frac{-(x-9.9048)^2}{2\cdot10.8860}\right]} \cdot \frac{1}{\sqrt{2%20\pi\cdot36.3235}}%20exp{\left[\frac{-(x-15.0795)^2}{2\cdot36.3235}\right]} ">  
 </p>
 
-## Hallar los valores de correlación, covarianza y coeficiente de correlación (Pearson) para los datos y explicar su significado
+## 2. Hallar los valores de correlación, covarianza y coeficiente de correlación (Pearson) para los datos y explicar su significado
 
 * Correlación:
 La correlación hace referencia al grado en el cual dos o más cantidades están linealmente asociadas. Para los datos proporcionados se obtuvo un valor de 149.542810 el cual debe ser igual a la multiplicación de la media de las variables aleatorias ya que al asumirse independencia estadística se sabe que no hay correlación entre las variables. 
