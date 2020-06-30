@@ -23,7 +23,7 @@ Es decir:
   <img src="https://render.githubusercontent.com/render/math?math=f_{x,y}(x,y) = \frac{1}{\sqrt{2%20\pi\cdot10.8860}}%20exp{\left[\frac{-(x-9.9048)^2}{2\cdot10.8860}\right]} \cdot \frac{1}{\sqrt{2%20\pi\cdot36.3235}}%20exp{\left[\frac{-(x-15.0795)^2}{2\cdot36.3235}\right]} ">  
 </p>
 
-## 2. Hallar los valores de correlación, covarianza y coeficiente de correlación (Pearson) para los datos y explicar su significado
+## 3. Hallar los valores de correlación, covarianza y coeficiente de correlación (Pearson) para los datos y explicar su significado
 
 * Correlación:
 La correlación hace referencia al grado en el cual dos o más cantidades están linealmente asociadas. Para los datos proporcionados se obtuvo un valor de 149.542810 el cual debe ser igual a la multiplicación de la media de las variables aleatorias ya que al asumirse independencia estadística se sabe que no hay correlación entre las variables. 
@@ -49,7 +49,7 @@ El coeficiente de correlación funciona como un indicador de la relación de lin
   <img src="https://render.githubusercontent.com/render/math?math=\rho = \frac{C_{XY}}{\sigma_{X} \sigma_{Y}} ">  
 </p>
 
-El resultado hallado fue de 0.002301 por lo que se concluye que las variables no presentan dependencia lineal. 
+El resultado hallado fue de 0.009201 por lo que se concluye que las variables no presentan dependencia lineal. 
 
 ## 4. Graficar las funciones de densidad marginales (2D), la función de densidad conjunta (3D).
 
